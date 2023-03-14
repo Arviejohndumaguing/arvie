@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Player</title>
+    <style>
+      /* Set the size of the video player */
+      video {
+        width: 640px;
+        height: 360px;
+        margin-left: 270px;
+        border-radius: 10px;
+        
+      }
+      body{
+        width: 100%;
+        background-image: linear-gradient(to right top, #6a2c70, #793888, #8745a1, #9353bc, #9e62d8, #9e63dd, #9f63e3, #9f64e8, #9655d7, #8d46c7, #8437b6, #7b26a6);
+      }
+      
+      /* Style the controls */
+      video::-webkit-media-controls {
+  
+        color: #333;
+      }
+      
+      /* Style the play button */
+      video::-webkit-media-controls-play-button {
+        background-color: #333;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <video controls>
+      <source src="GOAL.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>
